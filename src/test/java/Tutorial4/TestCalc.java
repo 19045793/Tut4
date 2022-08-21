@@ -8,6 +8,11 @@ public class TestCalc {
         Calc testCalc = new Calc();
         assertEquals(9, testCalc.add(4, 5));
     }
+  @Test
+  void testSubtract() {
+        Calc testCalc = new Calc();
+        assertEquals(1, testCalc.subtract(5, 4));
+    }
 
 
 }
